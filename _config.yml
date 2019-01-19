@@ -1,0 +1,7 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      title: Machine Learning Hispano
+      description: La comunidad en Español más grande de Machine Learning

@@ -5,3 +5,5 @@ defaults:
       layout: "default"
       title: Machine Learning Hispano
       description: La comunidad en Español más grande de Machine Learning
+
+exclude: [assets/vendor/node_modules]

@@ -107,3 +107,12 @@ section.intro {
     }
   }
 }
+
+@media (max-width: $screen-xs-max) {
+  header.masthead {
+    .intro-logo {
+      max-width: 70%;
+      width: 250px;
+    }
+  }
+}

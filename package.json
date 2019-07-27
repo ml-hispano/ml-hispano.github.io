@@ -1,7 +1,7 @@
 {
-  "name": "ibm.github.io",
-  "description": "ibm.github.io",
-  "author": "IBM",
+  "name": "ml-hispano.github.io",
+  "description": "ml-hispano.github.io",
+  "author": "ML-Hispano",
   "version": "0.0.1",
   "devDependencies": {
     "jshint": "^2.9.5"

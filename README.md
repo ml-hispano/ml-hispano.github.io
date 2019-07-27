@@ -1,4 +1,4 @@
-# Portal for ML-Hispano @ GitHub
+# Portal de proyectos colaborativos ML-Hispano @ GitHub
 
 Este repositorio se representa en línea en [http://ml-hispano.github.io](http://ml-hispano.github.io), contiene una lista de repositorios que son de código abierto y mantenidos por equipos de ML-Hispano.
 
@@ -33,6 +33,7 @@ $ python -m http.server {port}
 ```
 
 Por ejemplo: `python -m http.server 8000` -> Abra la siguiente URL en un navegador:
+o bien: `python -m SimpleHTTPServer 8000`
 
 ```
 http://localhost:8000/
@@ -48,7 +49,7 @@ $ git checkout -b branch_name
 ```
 
 2. Actualiza los archivos que te gustaría cambiar.
-3. Suba los cambios al repositorio
+3. Suba los cambios al repositorio.
 
 ```
 $ git add file1 file2
@@ -56,4 +57,4 @@ $ git commit -m "add your commit message here"
 $ git push origin branch_name
 ```
 
-4. Vea su rama en Github y cree una Solicitud de Cambio
+4. Vea su rama en Github y cree una Solicitud de Cambio.

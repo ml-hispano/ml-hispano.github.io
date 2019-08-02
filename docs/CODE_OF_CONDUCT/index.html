@@ -1,0 +1,950 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Portal Github de ML-Hispano">
+      
+      
+        <link rel="canonical" href="https://elswork.github.io/ml-hispano.github.io/CODE_OF_CONDUCT/">
+      
+      
+        <meta name="author" content="ML-Hispano">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.2.0">
+    
+    
+      
+        <title>Comunidad Machine Learning Hispano - ML-Hispano @ Github</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.750b69bd.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+      <link rel="manifest" href="../manifest.webmanifest">
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/mermaid@7.1.2/dist/mermaid.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-144702630-1", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#comunidad-machine-learning-hispano" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://elswork.github.io/ml-hispano.github.io" title="ML-Hispano @ Github" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              ML-Hispano @ Github
+            </span>
+            <span class="md-header-nav__topic">
+              Comunidad Machine Learning Hispano
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/elswork/ml-hispano.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    elswork/ml-hispano.github.io
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://elswork.github.io/ml-hispano.github.io" title="ML-Hispano @ Github" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    ML-Hispano @ Github
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/elswork/ml-hispano.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    elswork/ml-hispano.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Recursos ML Hispano" class="md-nav__link">
+      Recursos ML Hispano
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Comunidad Machine Learning Hispano
+      </label>
+    
+    <a href="./" title="Comunidad Machine Learning Hispano" class="md-nav__link md-nav__link--active">
+      Comunidad Machine Learning Hispano
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-proposito" title="1. Propósito" class="md-nav__link">
+    1. Propósito
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-comportamiento-esperado" title="2. Comportamiento esperado" class="md-nav__link">
+    2. Comportamiento esperado
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-comportamiento-inaceptable" title="3. Comportamiento inaceptable" class="md-nav__link">
+    3. Comportamiento inaceptable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-consecuencias-de-comportamiento-inaceptable" title="4. Consecuencias de comportamiento inaceptable" class="md-nav__link">
+    4. Consecuencias de comportamiento inaceptable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-politicas-de-moderacion" title="5  Políticas de moderación" class="md-nav__link">
+    5  Políticas de moderación
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-alcance" title="6. Alcance" class="md-nav__link">
+    6. Alcance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-licencia-y-atribucion" title="7. Licencia y atribución" class="md-nav__link">
+    7. Licencia y atribución
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Proyectos/" title="Portal de proyectos" class="md-nav__link">
+      Portal de proyectos
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Artículos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Artículos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
+    
+    <label class="md-nav__link" for="nav-4-1">
+      Blog
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        Blog
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Artículos/Blog/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Colabora
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Colabora
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Colabora/Recursos/" title="Colabora" class="md-nav__link">
+      Colabora
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Colabora/mkdocs/" title="MkDocs-DIY" class="md-nav__link">
+      MkDocs-DIY
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Cursos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Cursos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Cursos/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Libros
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Libros
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Libros/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Papers
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Papers
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Papers/" title="Papers" class="md-nav__link">
+      Papers
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Proyectos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Proyectos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-1" type="checkbox" id="nav-9-1">
+    
+    <label class="md-nav__link" for="nav-9-1">
+      Tensorflow
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-1">
+        Tensorflow
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Proyectos/Tensorflow/" title="Proyectos hechos con Tensorflow" class="md-nav__link">
+      Proyectos hechos con Tensorflow
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10">
+    
+    <label class="md-nav__link" for="nav-10">
+      Seccion
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        Seccion
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Seccion/Subseccion/" title="Subseccion" class="md-nav__link">
+      Subseccion
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
+    
+    <label class="md-nav__link" for="nav-11">
+      Vídeos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-11">
+        Vídeos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Vídeos/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-proposito" title="1. Propósito" class="md-nav__link">
+    1. Propósito
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-comportamiento-esperado" title="2. Comportamiento esperado" class="md-nav__link">
+    2. Comportamiento esperado
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-comportamiento-inaceptable" title="3. Comportamiento inaceptable" class="md-nav__link">
+    3. Comportamiento inaceptable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-consecuencias-de-comportamiento-inaceptable" title="4. Consecuencias de comportamiento inaceptable" class="md-nav__link">
+    4. Consecuencias de comportamiento inaceptable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-politicas-de-moderacion" title="5  Políticas de moderación" class="md-nav__link">
+    5  Políticas de moderación
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-alcance" title="6. Alcance" class="md-nav__link">
+    6. Alcance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-licencia-y-atribucion" title="7. Licencia y atribución" class="md-nav__link">
+    7. Licencia y atribución
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/elswork/ml-hispano.github.io/edit/master/mkdocs/CODE_OF_CONDUCT.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="comunidad-machine-learning-hispano">Comunidad Machine Learning Hispano<a class="headerlink" href="#comunidad-machine-learning-hispano" title="Permanent link">&para;</a></h1>
+<h2 id="1-proposito">1. Propósito<a class="headerlink" href="#1-proposito" title="Permanent link">&para;</a></h2>
+<p>Uno de los objetivos principales de la comunidad <code>machine learning hispano</code> es ser inclusiva para el mayor número de contribuyentes, con la mayor diversidad de orígenes posibles. Como tal, estamos comprometidos a proporcionar un ambiente agradable, seguro y acogedor para todos, independientemente de su sexo, orientación sexual, capacidad, etnia, nivel socioeconómico, y religión (o falta de la misma).</p>
+<p>Este código de conducta resume nuestras expectativas para todos los que participan en nuestra comunidad, así como las consecuencias para el comportamiento inaceptable.</p>
+<p>Invitamos a todos y todas las que participantes en <code>machine learning hispano</code> a que nos ayuden a crear experiencias seguras y positivas para todos.</p>
+<h2 id="2-comportamiento-esperado">2. Comportamiento esperado<a class="headerlink" href="#2-comportamiento-esperado" title="Permanent link">&para;</a></h2>
+<p>Participa de manera auténtica y activa. Al hacerlo, contribuyes a la salud y la longevidad de esta comunidad.
+Ejercita la consideración y el respeto en tus comunicaciones y acciones.
+Intenta colaborar en lugar de generar conflicto.
+Absténte de adoptar una conducta y un lenguaje degradantes, discriminatorios, abusivos o acosadores.
+Sé consciente de tu entorno y de tus compañeros participantes. Alerta a líderes de la comunidad si notas una situación peligrosa, alguien en apuros, o violaciones de este Código de Conducta, incluso si parecen intrascendentes.</p>
+<h2 id="3-comportamiento-inaceptable">3. Comportamiento inaceptable<a class="headerlink" href="#3-comportamiento-inaceptable" title="Permanent link">&para;</a></h2>
+<p>Comportamientos inaceptables incluyen: intimidación, acoso, abuso, discriminación, comunicación despectiva o degradante o acciones por cualquier participante en nuestra comunidad, en todos los eventos relacionados y en las comunicaciones que se realizan en el contexto de los negocios de la comunidad.</p>
+<p>El acoso incluye: comentarios nocivos o perjudiciales, verbales o escritos relacionados con el género, la orientación sexual, raza, religión, discapacidad; uso inadecuado de desnudos y / o imágenes sexuales en espacios públicos (incluyendo la presentación diapositivas); intimidación deliberada, acecho o seguimiento; fotografías o grabaciones acosadoras; interrupción sostenida de charlas y otros eventos; contacto físico inapropiado, y atención sexual no deseada.</p>
+<h2 id="4-consecuencias-de-comportamiento-inaceptable">4. Consecuencias de comportamiento inaceptable<a class="headerlink" href="#4-consecuencias-de-comportamiento-inaceptable" title="Permanent link">&para;</a></h2>
+<p>El comportamiento inaceptable de cualquier miembro de la comunidad, incluyendo patrocinadores y aquellos con poder de decisión, no será tolerado.</p>
+<p>Se espera que personas a quienes se les solicite que detengan su comportamiento inaceptable lo hagan de manera inmediata.</p>
+<p>Si un miembro de la comunidad participa en una conducta inaceptable, los organizadores comunitarios pueden tomar cualquier acción que consideren apropiada, hasta e incluyendo una prohibición temporal o expulsión permanente de la comunidad, sin previo aviso.</p>
+<h2 id="5-politicas-de-moderacion">5  Políticas de moderación<a class="headerlink" href="#5-politicas-de-moderacion" title="Permanent link">&para;</a></h2>
+<p>Estas son las políticas para mantener los estándares de conducta en nuestra comunidad en los canales de chat, meetups asociados, conferencias, grupos de estudio, y eventos virtuales.</p>
+<ul>
+<li>Palabras que violen las normas de Código de Conducta, incluyendo comentarios odiosos, hirientes, opresivos, o excluyentes, no están permitidos. (Se permite las "malas palabras", pero nunca enfocadas hacia otro usuario/asistente, y nunca de una manera odiosa.)</li>
+<li>Comentarios que los organizadores encuentran inapropiados tampoco están permitidos, así aparezcan en el código de conducta o no.</li>
+<li>Los organizadores primero deberán responder a dichos comentarios con una advertencia.</li>
+<li>Si la advertencia es ignorada, el usuario/asistente será expulsado del canal para que evalúe su comportamiento, o deberá retirarse del lugar por 30 minutos en caso de eventos 
+presenciales.</li>
+<li>Si el usuario/asistente regresa y continúa causando problemas, será expulsado del grupo/evento/lugar/Slack de forma indefinida.</li>
+<li>Los organizadores pueden retractar la expulsión a su discreción si esta se trata de una primera infracción y se ha ofrecido una disculpa sincera a quien ofendieron.</li>
+<li>Si un organizador expulsa a alguien y usted cree que fue una expulsión sin causa, contacte a ese organizador, o a un organizador diferente en privado. Quejas sobre expulsiones en medios abiertos, sociales, u otros canales no son permitidas y conllevaran a más expulsiones.</li>
+<li>Los organizadores se rigen por un nivel más alto que otros miembros de la comunidad. Si un organizador crea una situación inadecuada, este será juzgado con un estándar más alto.</li>
+</ul>
+<p>En la comunidad <code>machine learning hispano</code> nos esforzamos por ir un paso más allá y cuidar el uno de los otros y otras. No se limite a tratar de mostrar su excelencia técnica, trate también de ser la mejor persona posible. En particular, evite tocar temas ofensivos o sensibles, especialmente si están fuera del tema tratado; esto muy a menudo conduce a peleas innecesarias, sentimientos heridos, y a daños en la confianza; peor aún, puede conducir a que personas se alejen de la comunidad en su totalidad.</p>
+<p>De la misma forma, si alguien está en desacuerdo con algo que usted dijo o hizo, resista el impulso de estar a la defensiva. Simplemente pare de hacer o decir lo que fuera que causó la queja y pida disculpas. Hay buenas probabilidades de que usted se pudo haber comunicado mejor, incluso si usted siente que fue malinterpretado o injustamente acusado, - recuerde que es su responsabilidad hacer que sus compañeras y compañeros de la comunidad  <code>machine learning hispano</code> estén cómodos y cómodas.</p>
+<p>Todo el mundo busca harmonía y todos estamos aquí, ante todo, porque queremos hablar de tecnologías que nos gustan. Por lo general, la gente está dispuesta a asumir buenas intenciones y perdonar, siempre y cuando usted gane su confianza y actúe de forma honrada.</p>
+<h2 id="6-alcance">6. Alcance<a class="headerlink" href="#6-alcance" title="Permanent link">&para;</a></h2>
+<p>Esperamos que todos los participantes de la comunidad (contribuyentes y otros invitados) se atengan a este Código de Conducta en todos los espacios virtuales y presenciales.</p>
+<h2 id="7-licencia-y-atribucion">7. Licencia y atribución<a class="headerlink" href="#7-licencia-y-atribucion" title="Permanent link">&para;</a></h2>
+<p>Este Código de Conducta se distribuye bajo una licencia <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons – ShareAlike (BY-SA)</a></p>
+<p>Adaptado del <a href="https://github.com/colombia-dev/codigo-de-conducta">Código de Conducta de colombia.dev</a></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Recursos ML Hispano" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Recursos ML Hispano
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Proyectos/" title="Portal de proyectos" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Portal de proyectos
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 ML-Hispano
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/ml-hispano" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/MLHispano" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.39abc4af.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+        <script src="https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

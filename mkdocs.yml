@@ -2,11 +2,11 @@
 site_name: 'ML-Hispano @ Github'
 site_description: 'Portal Github de ML-Hispano'
 site_author: 'ML-Hispano'
-site_url: 'https://elswork.github.io/ml-hispano.github.io'
+site_url: 'https://machinelearninghispano.com'
 
 # Repository
-repo_name: 'elswork/ml-hispano.github.io'
-repo_url: 'https://github.com/elswork/ml-hispano.github.io'
+repo_name: 'ml-hispano/ml-hispano.github.io'
+repo_url: 'https://github.com/ml-hispano/ml-hispano.github.io'
 
 # Copyright
 copyright: 'Copyright &copy; 2019 ML-Hispano'

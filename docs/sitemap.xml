@@ -2,62 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://elswork.github.io/ml-hispano.github.io/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://elswork.github.io/ml-hispano.github.io/CODE_OF_CONDUCT/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Proyectos/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Portal/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Artículos/Blog/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Canales/1_women-in-ml/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/Recursos/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/mkdocs/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/specimen/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Cursos/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/extensions/admonition/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Libros/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/extensions/codehilite/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Papers/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/extensions/footnotes/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Proyectos/Tensorflow/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/extensions/metadata/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Seccion/Subseccion/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/extensions/permalinks/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://elswork.github.io/ml-hispano.github.io/Vídeos/</loc>
-     <lastmod>2019-08-02</lastmod>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Colabora/extensions/pymdown/</loc>
+     <lastmod>2019-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Recursos/Articulos/</loc>
+     <lastmod>2019-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Recursos/Libros/</loc>
+     <lastmod>2019-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Recursos/Papers/</loc>
+     <lastmod>2019-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Recursos/Proyectos/</loc>
+     <lastmod>2019-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://elswork.github.io/ml-hispano.github.io/Recursos/Videos/</loc>
+     <lastmod>2019-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

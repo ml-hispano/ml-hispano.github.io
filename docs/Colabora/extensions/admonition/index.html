@@ -1,0 +1,1385 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Portal Github de ML-Hispano">
+      
+      
+        <link rel="canonical" href="https://elswork.github.io/ml-hispano.github.io/Colabora/extensions/admonition/">
+      
+      
+        <meta name="author" content="ML-Hispano">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.2.0">
+    
+    
+      
+        <title>Admonition - ML-Hispano @ Github</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.750b69bd.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+      <link rel="manifest" href="../../../manifest.webmanifest">
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/mermaid@7.1.2/dist/mermaid.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-144702630-1", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#admonition" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://elswork.github.io/ml-hispano.github.io" title="ML-Hispano @ Github" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              ML-Hispano @ Github
+            </span>
+            <span class="md-header-nav__topic">
+              Admonition
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/elswork/ml-hispano.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    elswork/ml-hispano.github.io
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://elswork.github.io/ml-hispano.github.io" title="ML-Hispano @ Github" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    ML-Hispano @ Github
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/elswork/ml-hispano.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    elswork/ml-hispano.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="ML-Hispano" class="md-nav__link">
+      ML-Hispano
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../CODE_OF_CONDUCT/" title="Código de conducta" class="md-nav__link">
+      Código de conducta
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../Portal/" title="Portal" class="md-nav__link">
+      Portal
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Canales
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Canales
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Canales/1_women-in-ml/" title="1_women-in-ml" class="md-nav__link">
+      1_women-in-ml
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Colabora
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Colabora
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../" title="Colabora" class="md-nav__link">
+      Colabora
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../specimen/" title="Specimen" class="md-nav__link">
+      Specimen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3" checked>
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Admonition
+      </label>
+    
+    <a href="./" title="Admonition" class="md-nav__link md-nav__link--active">
+      Admonition
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" title="Installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changing-the-title" title="Changing the title" class="md-nav__link">
+    Changing the title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-the-title" title="Removing the title" class="md-nav__link">
+    Removing the title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#embedded-code-blocks" title="Embedded code blocks" class="md-nav__link">
+    Embedded code blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collapsible-blocks" title="Collapsible blocks" class="md-nav__link">
+    Collapsible blocks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" title="Types" class="md-nav__link">
+    Types
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#note" title="Note" class="md-nav__link">
+    Note
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#info" title="Info" class="md-nav__link">
+    Info
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tip" title="Tip" class="md-nav__link">
+    Tip
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#success" title="Success" class="md-nav__link">
+    Success
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question" title="Question" class="md-nav__link">
+    Question
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#warning" title="Warning" class="md-nav__link">
+    Warning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#failure" title="Failure" class="md-nav__link">
+    Failure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danger" title="Danger" class="md-nav__link">
+    Danger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bug" title="Bug" class="md-nav__link">
+    Bug
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" title="Example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quote" title="Quote" class="md-nav__link">
+    Quote
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../codehilite/" title="CodeHilite" class="md-nav__link">
+      CodeHilite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../footnotes/" title="Footnotes" class="md-nav__link">
+      Footnotes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../metadata/" title="Metadata" class="md-nav__link">
+      Metadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../permalinks/" title="Permalinks" class="md-nav__link">
+      Permalinks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pymdown/" title="PyMdown Extensions" class="md-nav__link">
+      PyMdown Extensions
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Recursos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Recursos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Articulos/" title="Articulos" class="md-nav__link">
+      Articulos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Libros/" title="Libros" class="md-nav__link">
+      Libros
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Papers/" title="Papers" class="md-nav__link">
+      Papers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Proyectos/" title="Proyectos" class="md-nav__link">
+      Proyectos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Videos/" title="Videos" class="md-nav__link">
+      Videos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" title="Installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changing-the-title" title="Changing the title" class="md-nav__link">
+    Changing the title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-the-title" title="Removing the title" class="md-nav__link">
+    Removing the title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#embedded-code-blocks" title="Embedded code blocks" class="md-nav__link">
+    Embedded code blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collapsible-blocks" title="Collapsible blocks" class="md-nav__link">
+    Collapsible blocks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" title="Types" class="md-nav__link">
+    Types
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#note" title="Note" class="md-nav__link">
+    Note
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abstract" title="Abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#info" title="Info" class="md-nav__link">
+    Info
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tip" title="Tip" class="md-nav__link">
+    Tip
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#success" title="Success" class="md-nav__link">
+    Success
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question" title="Question" class="md-nav__link">
+    Question
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#warning" title="Warning" class="md-nav__link">
+    Warning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#failure" title="Failure" class="md-nav__link">
+    Failure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danger" title="Danger" class="md-nav__link">
+    Danger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bug" title="Bug" class="md-nav__link">
+    Bug
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" title="Example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quote" title="Quote" class="md-nav__link">
+    Quote
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/elswork/ml-hispano.github.io/edit/master/mkdocs/Colabora/extensions/admonition.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="admonition">Admonition<a class="headerlink" href="#admonition" title="Permanent link">&para;</a></h1>
+<p><a href="https://python-markdown.github.io/extensions/admonition/">Admonition</a> is an extension included in the standard Markdown library that
+makes it possible to add block-styled side content to your documentation, for
+example summaries, notes, hints or warnings.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<p>Add the following lines to your <code>mkdocs.yml</code>:</p>
+<div class="codehilite"><pre><span></span><span class="nt">markdown_extensions</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">admonition</span>
+</pre></div>
+
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<p>Admonition blocks follow a simple syntax: every block is started with <code>!!!</code>,
+followed by a single keyword which is used as the <a href="#types">type qualifier</a> of the
+block. The content of the block then follows on the next line, indented by
+four spaces.</p>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! note
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<h3 id="changing-the-title">Changing the title<a class="headerlink" href="#changing-the-title" title="Permanent link">&para;</a></h3>
+<p>By default, the block title will equal the type qualifier in titlecase. However,
+it can easily be changed by adding a quoted string after the type qualifier.</p>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! note &quot;Phasellus posuere in sem ut cursus&quot;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition note">
+<p class="admonition-title">Phasellus posuere in sem ut cursus</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<h3 id="removing-the-title">Removing the title<a class="headerlink" href="#removing-the-title" title="Permanent link">&para;</a></h3>
+<p>Similar to setting a <a href="#changing-the-title">custom title</a>, the icon and title can be omitted by
+providing an empty string after the type qualifier:</p>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! note &quot;&quot;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition note">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<h3 id="embedded-code-blocks">Embedded code blocks<a class="headerlink" href="#embedded-code-blocks" title="Permanent link">&para;</a></h3>
+<p>Blocks can contain all kinds of text content, including headlines, lists,
+paragraphs and other blocks – except code blocks, because the parser from the
+standard Markdown library does not account for those.</p>
+<p>However, the <a href="https://facelessuser.github.io/pymdown-extensions">PyMdown Extensions</a> package adds an extension called
+<a href="https://facelessuser.github.io/pymdown-extensions/extensions/superfences/">SuperFences</a>, which makes it possible to nest code blocks within other
+blocks, respectively Admonition blocks.</p>
+<p>Example:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+<div class="codehilite"><pre><span></span><span class="k">SELECT</span>
+  <span class="n">Employees</span><span class="p">.</span><span class="n">EmployeeID</span><span class="p">,</span>
+  <span class="n">Employees</span><span class="p">.</span><span class="n">Name</span><span class="p">,</span>
+  <span class="n">Employees</span><span class="p">.</span><span class="n">Salary</span><span class="p">,</span>
+  <span class="n">Manager</span><span class="p">.</span><span class="n">Name</span> <span class="k">AS</span> <span class="n">Manager</span>
+<span class="k">FROM</span>
+  <span class="n">Employees</span>
+<span class="k">LEFT</span> <span class="k">JOIN</span>
+  <span class="n">Employees</span> <span class="k">AS</span> <span class="n">Manager</span>
+<span class="k">ON</span>
+  <span class="n">Employees</span><span class="p">.</span><span class="n">ManagerID</span> <span class="o">=</span> <span class="n">Manager</span><span class="p">.</span><span class="n">EmployeeID</span>
+<span class="k">WHERE</span>
+  <span class="n">Employees</span><span class="p">.</span><span class="n">EmployeeID</span> <span class="o">=</span> <span class="s1">&#39;087652&#39;</span><span class="p">;</span>
+</pre></div>
+
+<p>Nunc eu odio eleifend, blandit leo a, volutpat sapien. Phasellus posuere in
+sem ut cursus. Nullam sit amet tincidunt ipsum, sit amet elementum turpis.
+Etiam ipsum quam, mattis in purus vitae, lacinia fermentum enim.</p>
+</div>
+<h3 id="collapsible-blocks">Collapsible blocks<a class="headerlink" href="#collapsible-blocks" title="Permanent link">&para;</a></h3>
+<p>The <a href="https://facelessuser.github.io/pymdown-extensions/extensions/details/">Details</a> extension which is also part of the <a href="https://facelessuser.github.io/pymdown-extensions">PyMdown Extensions</a>
+package adds support for rendering collapsible Admonition blocks. This is
+useful for FAQs or content that is of secondary nature.</p>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>??? note &quot;Phasellus posuere in sem ut cursus&quot;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<details class="note"><summary>Phasellus posuere in sem ut cursus</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</details>
+<p>By adding a <code>+</code> sign directly after the start marker, blocks can be rendered
+open by default.</p>
+<h2 id="types">Types<a class="headerlink" href="#types" title="Permanent link">&para;</a></h2>
+<p>Admonition supports user-defined type qualifiers which may influence the style
+of the inserted block. Following is a list of type qualifiers provided by the
+Material theme, whereas the default type, and thus fallback for unknown type
+qualifiers, is <code>note</code>.</p>
+<h3 id="note">Note<a class="headerlink" href="#note" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! note
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>note</code></li>
+<li><code>seealso</code></li>
+</ul>
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! abstract
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition abstract">
+<p class="admonition-title">Abstract</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>abstract</code></li>
+<li><code>summary</code></li>
+<li><code>tldr</code></li>
+</ul>
+<h3 id="info">Info<a class="headerlink" href="#info" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! info
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>info</code></li>
+<li><code>todo</code></li>
+</ul>
+<h3 id="tip">Tip<a class="headerlink" href="#tip" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! tip
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>tip</code></li>
+<li><code>hint</code></li>
+<li><code>important</code></li>
+</ul>
+<h3 id="success">Success<a class="headerlink" href="#success" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! success
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>success</code></li>
+<li><code>check</code></li>
+<li><code>done</code></li>
+</ul>
+<h3 id="question">Question<a class="headerlink" href="#question" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! question
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition question">
+<p class="admonition-title">Question</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>question</code></li>
+<li><code>help</code></li>
+<li><code>faq</code></li>
+</ul>
+<h3 id="warning">Warning<a class="headerlink" href="#warning" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! warning
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>warning</code></li>
+<li><code>caution</code></li>
+<li><code>attention</code></li>
+</ul>
+<h3 id="failure">Failure<a class="headerlink" href="#failure" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! failure
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition failure">
+<p class="admonition-title">Failure</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>failure</code></li>
+<li><code>fail</code></li>
+<li><code>missing</code></li>
+</ul>
+<h3 id="danger">Danger<a class="headerlink" href="#danger" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! danger
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>danger</code></li>
+<li><code>error</code></li>
+</ul>
+<h3 id="bug">Bug<a class="headerlink" href="#bug" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! bug
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition bug">
+<p class="admonition-title">Bug</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>bug</code></li>
+</ul>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! example
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>example</code></li>
+<li><code>snippet</code></li>
+</ul>
+<h3 id="quote">Quote<a class="headerlink" href="#quote" title="Permanent link">&para;</a></h3>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>!!! quote
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+</pre></div>
+
+<p>Result:</p>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</div>
+<p>Qualifiers:</p>
+<ul>
+<li><code>quote</code></li>
+<li><code>cite</code></li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../specimen/" title="Specimen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Specimen
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../codehilite/" title="CodeHilite" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                CodeHilite
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 ML-Hispano
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/ml-hispano" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/MLHispano" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.39abc4af.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+        <script src="https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

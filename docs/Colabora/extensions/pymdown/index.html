@@ -1,0 +1,1191 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Portal Github de ML-Hispano">
+      
+      
+        <link rel="canonical" href="https://elswork.github.io/ml-hispano.github.io/Colabora/extensions/pymdown/">
+      
+      
+        <meta name="author" content="ML-Hispano">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.2.0">
+    
+    
+      
+        <title>PyMdown Extensions - ML-Hispano @ Github</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.750b69bd.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+      <link rel="manifest" href="../../../manifest.webmanifest">
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/mermaid@7.1.2/dist/mermaid.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-144702630-1", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#pymdown-extensions" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://elswork.github.io/ml-hispano.github.io" title="ML-Hispano @ Github" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              ML-Hispano @ Github
+            </span>
+            <span class="md-header-nav__topic">
+              PyMdown Extensions
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/elswork/ml-hispano.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    elswork/ml-hispano.github.io
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://elswork.github.io/ml-hispano.github.io" title="ML-Hispano @ Github" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    ML-Hispano @ Github
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/elswork/ml-hispano.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    elswork/ml-hispano.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="ML-Hispano" class="md-nav__link">
+      ML-Hispano
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../CODE_OF_CONDUCT/" title="Código de conducta" class="md-nav__link">
+      Código de conducta
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../Portal/" title="Portal" class="md-nav__link">
+      Portal
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Canales
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Canales
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Canales/1_women-in-ml/" title="1_women-in-ml" class="md-nav__link">
+      1_women-in-ml
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Colabora
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Colabora
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../" title="Colabora" class="md-nav__link">
+      Colabora
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../specimen/" title="Specimen" class="md-nav__link">
+      Specimen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3" checked>
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../admonition/" title="Admonition" class="md-nav__link">
+      Admonition
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../codehilite/" title="CodeHilite" class="md-nav__link">
+      CodeHilite
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../footnotes/" title="Footnotes" class="md-nav__link">
+      Footnotes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../metadata/" title="Metadata" class="md-nav__link">
+      Metadata
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../permalinks/" title="Permalinks" class="md-nav__link">
+      Permalinks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        PyMdown Extensions
+      </label>
+    
+    <a href="./" title="PyMdown Extensions" class="md-nav__link md-nav__link--active">
+      PyMdown Extensions
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" title="Installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arithmatex-mathjax" title="Arithmatex MathJax" class="md-nav__link">
+    Arithmatex MathJax
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blocks" title="Blocks" class="md-nav__link">
+    Blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inline" title="Inline" class="md-nav__link">
+    Inline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#betterem" title="BetterEm" class="md-nav__link">
+    BetterEm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caret" title="Caret" class="md-nav__link">
+    Caret
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critic" title="Critic" class="md-nav__link">
+    Critic
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#details" title="Details" class="md-nav__link">
+    Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emoji" title="Emoji" class="md-nav__link">
+    Emoji
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inlinehilite" title="InlineHilite" class="md-nav__link">
+    InlineHilite
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#magiclink" title="MagicLink" class="md-nav__link">
+    MagicLink
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mark" title="Mark" class="md-nav__link">
+    Mark
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smartsymbols" title="SmartSymbols" class="md-nav__link">
+    SmartSymbols
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#superfences" title="SuperFences" class="md-nav__link">
+    SuperFences
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tasklist" title="Tasklist" class="md-nav__link">
+    Tasklist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tilde" title="Tilde" class="md-nav__link">
+    Tilde
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Recursos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Recursos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Articulos/" title="Articulos" class="md-nav__link">
+      Articulos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Libros/" title="Libros" class="md-nav__link">
+      Libros
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Papers/" title="Papers" class="md-nav__link">
+      Papers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Proyectos/" title="Proyectos" class="md-nav__link">
+      Proyectos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Recursos/Videos/" title="Videos" class="md-nav__link">
+      Videos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" title="Installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arithmatex-mathjax" title="Arithmatex MathJax" class="md-nav__link">
+    Arithmatex MathJax
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blocks" title="Blocks" class="md-nav__link">
+    Blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inline" title="Inline" class="md-nav__link">
+    Inline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#betterem" title="BetterEm" class="md-nav__link">
+    BetterEm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caret" title="Caret" class="md-nav__link">
+    Caret
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critic" title="Critic" class="md-nav__link">
+    Critic
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#details" title="Details" class="md-nav__link">
+    Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emoji" title="Emoji" class="md-nav__link">
+    Emoji
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inlinehilite" title="InlineHilite" class="md-nav__link">
+    InlineHilite
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#magiclink" title="MagicLink" class="md-nav__link">
+    MagicLink
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mark" title="Mark" class="md-nav__link">
+    Mark
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smartsymbols" title="SmartSymbols" class="md-nav__link">
+    SmartSymbols
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#superfences" title="SuperFences" class="md-nav__link">
+    SuperFences
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tasklist" title="Tasklist" class="md-nav__link">
+    Tasklist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tilde" title="Tilde" class="md-nav__link">
+    Tilde
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/elswork/ml-hispano.github.io/edit/master/mkdocs/Colabora/extensions/pymdown.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="pymdown-extensions">PyMdown Extensions<a class="headerlink" href="#pymdown-extensions" title="Permanent link">&para;</a></h1>
+<p><a href="http://facelessuser.github.io/pymdown-extensions/">PyMdown Extensions</a> is a collection of Markdown extensions that add some
+great features to the standard Markdown library. For this reason, the
+<strong>installation of this package is highly recommended</strong> as it's well-integrated
+with the Material theme.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<p>The PyMdown Extensions package can be installed with the following command:</p>
+<div class="codehilite"><pre><span></span>pip install pymdown-extensions
+</pre></div>
+
+<p>The following list of extensions that are part of the PyMdown Extensions
+package are recommended to be used together with the Material theme:</p>
+<div class="codehilite"><pre><span></span><span class="nt">markdown_extensions</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.arithmatex</span>
+  <span class="p p-Indicator">-</span> <span class="nt">pymdownx.betterem</span><span class="p">:</span>
+      <span class="nt">smart_enable</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">all</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.caret</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.critic</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.details</span>
+  <span class="p p-Indicator">-</span> <span class="nt">pymdownx.emoji</span><span class="p">:</span>
+      <span class="nt">emoji_generator</span><span class="p">:</span> <span class="kt">!!python/name:pymdownx.emoji.to_svg</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.inlinehilite</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.magiclink</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.mark</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.smartsymbols</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.superfences</span>
+  <span class="p p-Indicator">-</span> <span class="nt">pymdownx.tasklist</span><span class="p">:</span>
+      <span class="nt">custom_checkbox</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pymdownx.tilde</span>
+</pre></div>
+
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<h3 id="arithmatex-mathjax">Arithmatex <small>MathJax</small><a class="headerlink" href="#arithmatex-mathjax" title="Permanent link">&para;</a></h3>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/">Arithmatex</a> integrates Material with <a href="https://www.mathjax.org/">MathJax</a> which parses
+block-style and inline equations written in TeX markup and outputs them in
+mathematical notation. See <a href="http://meta.math.stackexchange.com/questions/5020/">this thread</a> for a short introduction and quick
+reference on how to write equations in TeX syntax.</p>
+<p>Besides activating the extension in the <code>mkdocs.yml</code>, the MathJax JavaScript
+runtime needs to be included. This must be done with
+<a href="../customization.md#additional-javascript">additional JavaScript</a>:</p>
+<div class="codehilite"><pre><span></span><span class="nt">extra_javascript</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="s">&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML&#39;</span>
+</pre></div>
+
+<p>If you want to override the default MathJax configuration, you can do this by
+adding another JavaScript file <strong>before</strong> the MathJax runtime in
+<code>extra_javascript</code> which contains your MathJax configuration, e.g.:</p>
+<div class="codehilite"><pre><span></span><span class="nb">window</span><span class="p">.</span><span class="nx">MathJax</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">tex2jax</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">inlineMath</span><span class="o">:</span> <span class="p">[</span> <span class="p">[</span><span class="s2">&quot;\\(&quot;</span><span class="p">,</span><span class="s2">&quot;\\)&quot;</span><span class="p">]</span> <span class="p">],</span>
+    <span class="nx">displayMath</span><span class="o">:</span> <span class="p">[</span> <span class="p">[</span><span class="s2">&quot;\\[&quot;</span><span class="p">,</span><span class="s2">&quot;\\]&quot;</span><span class="p">]</span> <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="nx">TeX</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">TagSide</span><span class="o">:</span> <span class="s2">&quot;right&quot;</span><span class="p">,</span>
+    <span class="nx">TagIndent</span><span class="o">:</span> <span class="s2">&quot;.8em&quot;</span><span class="p">,</span>
+    <span class="nx">MultLineWidth</span><span class="o">:</span> <span class="s2">&quot;85%&quot;</span><span class="p">,</span>
+    <span class="nx">equationNumbers</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">autoNumber</span><span class="o">:</span> <span class="s2">&quot;AMS&quot;</span><span class="p">,</span>
+    <span class="p">},</span>
+    <span class="nx">unicode</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">fonts</span><span class="o">:</span> <span class="s2">&quot;STIXGeneral,&#39;Arial Unicode MS&#39;&quot;</span>
+    <span class="p">}</span>
+  <span class="p">},</span>
+  <span class="nx">displayAlign</span><span class="o">:</span> <span class="s2">&quot;left&quot;</span><span class="p">,</span>
+  <span class="nx">showProcessingMessages</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+  <span class="nx">messageStyle</span><span class="o">:</span> <span class="s2">&quot;none&quot;</span>
+<span class="p">};</span>
+</pre></div>
+
+<p>In your <code>mkdocs.yml</code>, include it with:</p>
+<div class="codehilite"><pre><span></span><span class="nt">extra_javascript</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="s">&#39;javascripts/extra.js&#39;</span>
+  <span class="p p-Indicator">-</span> <span class="s">&#39;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML&#39;</span>
+</pre></div>
+
+<h4 id="blocks">Blocks<a class="headerlink" href="#blocks" title="Permanent link">&para;</a></h4>
+<p>Blocks are enclosed in <code class="codehilite"><span class="sb">$$</span><span class="nb">...</span><span class="s">$$</span></code> which are placed on separate lines.</p>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span><span class="sb">$$</span><span class="nb"></span>
+<span class="nv">\frac</span><span class="nb">{n</span><span class="o">!</span><span class="nb">}{k</span><span class="o">!(</span><span class="nb">n</span><span class="o">-</span><span class="nb">k</span><span class="o">)!</span><span class="nb">} </span><span class="o">=</span><span class="nb"> </span><span class="nv">\binom</span><span class="nb">{n}{k}</span>
+<span class="s">$$</span>
+</pre></div>
+
+<p>Result:</p>
+<div>
+<div class="MathJax_Preview">
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+</div>
+<script type="math/tex; mode=display">
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+</script>
+</div>
+<h4 id="inline">Inline<a class="headerlink" href="#inline" title="Permanent link">&para;</a></h4>
+<p>Inline equations need to be enclosed in <code class="codehilite"><span class="s">$</span><span class="nb">...</span><span class="s">$</span></code>:</p>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>Lorem ipsum dolor sit amet: <span class="s">$</span><span class="nb">p</span><span class="o">(</span><span class="nb">x|y</span><span class="o">)</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{p</span><span class="o">(</span><span class="nb">y|x</span><span class="o">)</span><span class="nb">p</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}{p</span><span class="o">(</span><span class="nb">y</span><span class="o">)</span><span class="nb">}</span><span class="s">$</span>
+</pre></div>
+
+<p>Result:</p>
+<p>Lorem ipsum dolor sit amet: <span><span class="MathJax_Preview">p(x|y) = \frac{p(y|x)p(x)}{p(y)}</span><script type="math/tex">p(x|y) = \frac{p(y|x)p(x)}{p(y)}</script></span></p>
+<h3 id="betterem">BetterEm<a class="headerlink" href="#betterem" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/betterem/">BetterEm</a> improves the handling of emphasis markup (<strong>bold</strong> and <em>italic</em>)
+within Markdown by providing a more sophisticated parser for better detecting
+start and end tokens. Read the documentation for <a href="https://facelessuser.github.io/pymdown-extensions/usage_notes/">usage notes</a>.</p>
+<h3 id="caret">Caret<a class="headerlink" href="#caret" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/caret/">Caret</a> makes it possible to highlight <ins>inserted text</ins>. The portion of
+text that should be marked as added must be enclosed in two carets <code>^^...^^</code>.</p>
+<h3 id="critic">Critic<a class="headerlink" href="#critic" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/critic/">Critic</a> implements <a href="http://criticmarkup.com/">Critic Markup</a>, a Markdown extension that enables
+the tracking of changes (additions, deletions and comments) on documents.
+During compilation of the Markdown document, changes can be rendered (default),
+accepted or rejected.</p>
+<p>Text can be <del class="critic">deleted</del> and replacement text <ins class="critic">added</ins>. This can also be
+combined into <del class="critic">one</del><ins class="critic">a single</ins> operation. <mark class="critic">Highlighting</mark> is also
+possible <span class="critic comment">and comments can be added inline</span>.</p>
+<mark class="critic block">
+<p>Formatting can also be applied to blocks, by putting the opening and closing
+tags on separate lines and adding new lines between the tags and the content.</p>
+</mark>
+<h3 id="details">Details<a class="headerlink" href="#details" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/details/">Details</a> adds collapsible <a href="../admonition/">Admonition-style blocks</a> which can contain
+arbitrary content using the HTML5 <code>details</code> and <code>summary</code> tags. Additionally,
+all Admonition qualifiers can be used, e.g. <code>note</code>, <code>question</code>, <code>warning</code> etc.:</p>
+<details class="question"><summary>How many Prolog programmers does it take to change a lightbulb?</summary><p>Yes.</p>
+</details>
+<h3 id="emoji">Emoji<a class="headerlink" href="#emoji" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/emoji/">Emoji</a> adds the ability to insert a <img alt="💩" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f4a9.svg" title=":shit:" />-load of emojis that we use in
+our daily lives. See the <a href="https://emoji.codes/">EmojiOne demo</a> for a list of all available
+emojis. Happy scrolling <img alt="🎉" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f389.svg" title=":tada:" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Legal disclaimer</p>
+<p>Material has no affiliation with <a href="http://emojione.com">EmojiOne</a> which is released under
+<a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a>. When including EmojiOne images or CSS, please read the
+<a href="http://emojione.com/licensing/">EmojiOne license</a> to ensure proper usage and attribution.</p>
+</div>
+<h3 id="inlinehilite">InlineHilite<a class="headerlink" href="#inlinehilite" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/">InlineHilite</a> adds support for inline code highlighting. It's useful for
+short snippets included within body copy, e.g. <code class="codehilite"><span class="kd">var</span> <span class="nx">test</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span></code> and can be
+achieved by prefixing inline code with a shebang and language identifier,
+e.g. <code>#!js</code>.</p>
+<h3 id="magiclink">MagicLink<a class="headerlink" href="#magiclink" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/magiclink/">MagicLink</a> detects links in Markdown and auto-generates the necessary
+markup, so no special syntax is required. It auto-links <code>http[s]://</code> and
+<code>ftp://</code> links, as well as references to email addresses.</p>
+<h3 id="mark">Mark<a class="headerlink" href="#mark" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/mark/">Mark</a> adds the ability to <mark>highlight text</mark> like it was marked with a
+<mark>text marker</mark>. The portion of text that should be highlighted must be
+enclosed in two equal signs <code>==...==</code>.</p>
+<h3 id="smartsymbols">SmartSymbols<a class="headerlink" href="#smartsymbols" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/">SmartSymbols</a> converts markup for special characters into their
+corresponding symbols, e.g. arrows (&larr;, &rarr;, &harr;), trademark and copyright
+symbols (&copy;, &trade;, &reg;) and fractions (&frac12;, &frac14;, ...).</p>
+<h3 id="superfences">SuperFences<a class="headerlink" href="#superfences" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/superfences/">SuperFences</a> provides the ability to nest code blocks under blockquotes,
+lists and other block elements, which the <a href="https://python-markdown.github.io/extensions/fenced_code_blocks/">Fenced Code Blocks</a> extension
+from the standard Markdown library doesn't parse correctly.</p>
+<p>SuperFences does also allow <a href="../codehilite/#grouping-code-blocks">grouping code blocks with tabs</a>.</p>
+<h3 id="tasklist">Tasklist<a class="headerlink" href="#tasklist" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/tasklist/">Tasklist</a> adds support for styled checkbox lists. This is useful for
+keeping track of tasks and showing what has been done and has yet to be done.
+Checkbox lists are like regular lists, but prefixed with <code>[ ]</code> for empty or
+<code>[x]</code> for filled checkboxes.</p>
+<p>Example:</p>
+<div class="codehilite"><pre><span></span>* [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+* [x] Nulla lobortis egestas semper
+* [x] Curabitur elit nibh, euismod et ullamcorper at, iaculis feugiat est
+* [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [x] Sed egestas felis quis elit dapibus, ac aliquet turpis mattis
+    * [ ] Praesent sed risus massa
+* [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+* [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
+</pre></div>
+
+<p>Result:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Nulla lobortis egestas semper</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Curabitur elit nibh, euismod et ullamcorper at, iaculis feugiat est</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Vestibulum convallis sit amet nisi a tincidunt<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> In hac habitasse platea dictumst</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> In scelerisque nibh non dolor mollis congue sed et metus</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Sed egestas felis quis elit dapibus, ac aliquet turpis mattis</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Praesent sed risus massa</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Nulla vel eros venenatis, imperdiet enim id, faucibus nisi</li>
+</ul>
+<h3 id="tilde">Tilde<a class="headerlink" href="#tilde" title="Permanent link">&para;</a></h3>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/extensions/tilde/">Tilde</a> provides an easy way to <del>strike through</del> cross out text.
+The portion of text that should be erased must be enclosed in two tildes
+<code>~~...~~</code> and the extension will take care of the rest.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../permalinks/" title="Permalinks" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Permalinks
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../../Recursos/Articulos/" title="Articulos" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Articulos
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 ML-Hispano
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/ml-hispano" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/MLHispano" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.39abc4af.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+        <script src="https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

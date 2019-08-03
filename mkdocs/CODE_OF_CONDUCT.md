@@ -1,5 +1,6 @@
+# Código de conducta
 
-# Comunidad Machine Learning Hispano
+### Comunidad Machine Learning Hispano
 
 ## 1. Propósito
 

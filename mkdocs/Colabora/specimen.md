@@ -1,5 +1,63 @@
 # Specimen
 
+## Special
+
+``` markdown
+!!! note "Note Sample"
+
+    This is a note.
+```
+
+Result:
+
+!!! note "Note Sample"
+
+    This is a note.
+
+!!! abstract "Some Heading"
+
+    Use !!! abstract "Some Heading"
+
+!!! info "Some Heading"
+
+    Use !!! info "Some Heading"
+
+!!! tip "Some Heading"
+
+    Use !!! tip "Some Heading"
+
+!!! question "Some Heading"
+
+    Use !!! question "Some Heading"
+
+!!! warning "Some Heading"
+
+    Use !!! warning "Some Heading"
+
+!!! success "Some Heading"
+
+    Use !!! success "Some Heading"
+
+!!! failure "Some Heading"
+
+    Use !!! failure "Some Heading"
+
+!!! danger "Some Heading"
+
+    Use !!! danger "Some Heading"
+
+!!! bug "Some Heading"
+
+    Use !!! bug "Some Heading"
+
+!!! example "Some Heading"
+
+    Use !!! example "Some Heading"
+
+!!! quote "Some Heading"
+
+    Use !!! quote "Some Heading"
+
 ## Body copy
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu libero,

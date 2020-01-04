@@ -1,9 +1,13 @@
 SNAME ?= mkdocs-diy
 NAME ?= elswork/$(SNAME)
 VER ?= `cat VERSION`
-BASE ?= alpine3.9
-BASENAME ?= python:3.7.2-$(BASE)
+BASE ?= alpine
+BASENAME ?= python:$(BASE)
+RUTA ?= $(CURDIR)
+SITE ?= 
+TO ?= /src
 ARCH2 ?= armv7l
+ARCH3 ?= aarch64
 GOARCH := $(shell uname -m)
 ifeq ($(GOARCH),x86_64)
 	GOARCH := amd64
@@ -38,17 +42,22 @@ push: ## Push the container
 	docker push $(NAME):$(GOARCH)	
 deploy: build tag push
 manifest: ## Create an push manifest
-	docker manifest create $(NAME):$(VER) $(NAME):$(GOARCH)_$(VER) $(NAME):$(ARCH2)_$(VER)
+	docker manifest create $(NAME):$(VER) \
+	$(NAME):$(GOARCH)_$(VER) \
+	$(NAME):$(ARCH2)_$(VER) \
+	$(NAME):$(ARCH3)_$(VER)
 	docker manifest push --purge $(NAME):$(VER)
-	docker manifest create $(NAME):latest $(NAME):$(GOARCH) $(NAME):$(ARCH2)
+	docker manifest create $(NAME):latest $(NAME):$(GOARCH) \
+	$(NAME):$(ARCH2) \
+	$(NAME):$(ARCH3)
 	docker manifest push --purge $(NAME):latest
-serve: ## Preview and live modify with auto-reloading
-	docker run -it --rm -v $(CURDIR):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs serve -a 0.0.0.0:7777
+serve: ## Preview and live modify with auto-reloading $(RUTA)/$(SITE)
+	docker run -it --rm -v $(RUTA)/$(SITE):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs serve -a 0.0.0.0:7777
 mkbuild: ## Generate website static files
-	docker run -it --rm -v $(CURDIR):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs build
-help: ## MkDocs commands help
-	docker run -it --rm -v $(CURDIR):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs -h
+	docker run -it --rm -v $(RUTA)/$(SITE):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs build
+mkhelp: ## MkDocs commands help
+	docker run -it --rm -v $(RUTA)/$(SITE):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs -h
 helpserve: ## MkDocs serve command help
-	docker run -it --rm -v $(CURDIR):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs serve -h
+	docker run -it --rm -v $(RUTA)/$(SITE):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs serve -h
 version: ## Display MkDocs version
-	docker run -it --rm -v $(CURDIR):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs -V
+	docker run -it --rm -v $(RUTA)/$(SITE):/mkdocs -p 7777:7777 $(NAME):$(GOARCH) mkdocs -V

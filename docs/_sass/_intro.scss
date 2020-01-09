@@ -1,0 +1,118 @@
+// Styling for the masthead
+header.masthead {
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  padding: 6rem 0;
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+  }
+  .container {
+    z-index: 2;
+    position: relative
+  }
+  .intro-logo {
+    margin-bottom: 60px;
+  }
+  .intro-text {
+    .intro-heading {
+      font-size: 2.8rem;
+    }
+    .intro-subheading {
+      font-size: 2.2rem;
+    }
+    .intro-btn {
+      background: linear-gradient(-190deg, #03b8fc, #8c7bff);
+      font-weight: 800;
+      margin: 50px 0;
+      &:hover {
+        background: linear-gradient(-150deg, #03b8fc, #8c7bff);
+      }
+    }
+  }
+}
+
+section.intro {
+  padding: 5rem 0;
+  position: relative;
+  z-index: 2;
+  .container {
+    position: relative;
+  }
+  span.brand-lines {
+    position: absolute;
+    top: -39px;
+    right: 0;
+    left: 0;
+    span {
+      height: 50px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      opacity: 0.9;
+      &:nth-child(1) {
+        background: linear-gradient(-190deg, #e7bd46, #f14985); 
+        bottom: -10px;
+        left: 10px;
+        right: 30px;
+      }
+      &:nth-child(2) {
+        background: linear-gradient(-190deg, #ffff7f, #ffb5fd);
+        bottom: -20px;
+        left: 20px;
+        right: 20px;
+      }
+      &:nth-child(3) {
+        background: linear-gradient(-190deg, #05e2b8, #24e799); 
+        bottom: -30px;
+        left: 30px;
+        right: 10px;
+      }
+      &:nth-child(4) {
+        background: #fff;
+        bottom: -34px;
+        height: 40px;
+        opacity: 1;
+        left: 45px;
+        right: 25px;
+      }
+    }
+  }
+  .intro-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    margin-top: 0;
+    letter-spacing: -1.3px;
+  }
+  .intro-desc {
+    font-size: 2rem;
+    line-height: 1.6em;
+    a {
+      font-weight: 600;
+      color: inherit;
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  header.masthead {
+    .intro-logo {
+      max-width: 70%;
+      width: 250px;
+    }
+  }
+}

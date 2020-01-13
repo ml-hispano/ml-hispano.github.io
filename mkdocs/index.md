@@ -4,6 +4,10 @@
 
 Únete la comunidad **Machine Learning Hispano** la comunidad mas grande en habla hispana. Si tu también quieres formar parte de esta comunidad, entra a nuestro Slack a través de este link [Slack ML-Hispano](https://bit.ly/2Oqingj).
 
+<p align="center"><a href="https://bit.ly/35Kp83O">
+  <img src="https://i.ibb.co/n0shJnF/Anotaci-n-2020-01-13-020158.png">
+</a></p>
+
 ## ¿Por qué unirte?
 
 Forma parte de un gran grupo de personas que quieren aprender a su manera con los recursos de [#2_recursos-y-papers](#2_recursos-y-papers) desde cero [#2_principiantes](#2_principiantes) y preguntar cuanto necesiten [#2_preguntas-y-dudas](#2_preguntas-y-dudas) o que buscan hacerlo de manera tradicional [#2_formacion_universit](#2_formacion_universit) Que buscan hacer proyectos para disfrutar y aprender [#3_banco_de_proyectos](#3_banco_de_proyectos) poniéndose a prueba [#3_competición_kaggle](#3_competición_kaggle) con el mejor entorno posible [#4_ordenadores-hardwar](#4_ordenadores-hardwar)  y estar listos para el salto laboral [#2_ofertas-de-empleo](#2_ofertas-de-empleo).

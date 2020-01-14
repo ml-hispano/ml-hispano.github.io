@@ -1,6 +1,4 @@
-# ML-Hispano
-![<img align="left" width="150" src="docs/assets/img/mlh-logo.png">]
-
+# ML-Hispano [<img align="left" width="150" src="docs/assets/img/mlh-logo.png">]
 
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ml-hispano/recursos-ml)[![HitCount](http://hits.dwyl.io/ml-hispano/recursos-ml.svg)](http://hits.dwyl.io/ml-hispano/recursos-ml)
 [<img align="right" width="150" src="docs/assets/images/join-slack-team.png">](https://bit.ly/2Oqingj)

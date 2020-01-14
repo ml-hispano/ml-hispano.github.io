@@ -5,21 +5,17 @@
 
 Únete la comunidad **Machine Learning Hispano** la comunidad mas grande en habla hispana. Si tu también quieres formar parte de esta comunidad, entra a nuestro Slack a través del boton rosa o en este link [Slack ML-Hispano](https://bit.ly/2Oqingj).
 
+
 # Comunidad ML-Hispano
 Este repositorio se representa en línea en [Comunidad ML-Hispano](http://machinelearninghispano.com).
 
 # MLH Web Site
-
 ![Web MLH](/docs/assets/img/mlh-portada.jpeg)
 
-Si deseas contribuir estan estas paginas
-
 # Proyectos
-
 ![Proyectos](/docs/assets/img/mlh-proyectos.jpeg)
 
 # Documentación
-
-![Events](/docs/assets/img/mlh-doc.jpeg)
+![Documentación](/docs/assets/img/mlh-doc.jpeg)
 
 

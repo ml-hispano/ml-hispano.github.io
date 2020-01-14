@@ -16,11 +16,10 @@ Si deseas contribuir estan estas paginas
 
 # Proyectos
 
-![Proyectos]()
+![Proyectos](/docs/assets/img/mlh-proyectos.jpeg)
 
 # Documentación
 
 ![Events](/docs/assets/img/mlh-doc.jpeg)
 
 
-Crea

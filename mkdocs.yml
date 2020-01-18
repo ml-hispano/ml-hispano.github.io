@@ -9,7 +9,7 @@ repo_name: 'ml-hispano/ml-hispano.github.io'
 repo_url: 'https://github.com/ml-hispano/ml-hispano.github.io'
 
 # Copyright
-copyright: 'Copyright &copy; 2019 ML-Hispano'
+copyright: 'Copyright &copy; 2020 ML-Hispano'
 
 # Configuration
 theme:
@@ -41,6 +41,8 @@ extra:
       link: 'https://github.com/ml-hispano'
     - type: 'twitter'
       link: 'https://twitter.com/MLHispano'
+    - type: 'slack'
+      link: 'https://bit.ly/35Kp83O'
 
 # Google Analytics
 google_analytics:

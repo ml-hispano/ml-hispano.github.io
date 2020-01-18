@@ -1,7 +1,7 @@
 # ML-Hispano
 
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ml-hispano/recursos-ml)[![HitCount](http://hits.dwyl.io/ml-hispano/recursos-ml.svg)](http://hits.dwyl.io/ml-hispano/recursos-ml)
-[<img align="right" width="150" src="assets/images/join-slack-team.png">](https://bit.ly/35Kp83O)
+[<img align="right" width="150" src="/assets/images/join-slack-team.png">](https://bit.ly/35Kp83O)
 
 Únete la comunidad **Machine Learning Hispano** la comunidad más grande en habla hispana. Si tu también quieres formar parte de esta comunidad, entra a nuestro Slack a través del botón rosa o en este link [Slack ML-Hispano](https://bit.ly/35Kp83O).
 
@@ -10,10 +10,10 @@
 Este repositorio se representa en línea en [Comunidad ML-Hispano](http://machinelearninghispano.com).
 
 # MLH Web Site
-[![Web MLH](assets/img/mlh-portada.jpeg)](indexb.html)
+[![Web MLH](/assets/img/mlh-portada.jpeg)](indexb.html)
 
 # Proyectos
-[![Proyectos](assets/img/mlh-proyectos.jpeg)](projects.html)
+[![Proyectos](/assets/img/mlh-proyectos.jpeg)](projects.html)
 
 ## ¿Por qué unirte?
 

@@ -10,10 +10,10 @@
 Este repositorio se representa en línea en [Comunidad ML-Hispano](http://machinelearninghispano.com).
 
 # MLH Web Site
-[![Web MLH](/docs/assets/img/mlh-portada.jpeg)](http://machinelearninghispano.com/indexb.html)
+[![Web MLH](docs/assets/img/mlh-portada.jpeg)](http://machinelearninghispano.com/indexb.html)
 
 # Proyectos
-[![Proyectos](/docs/assets/img/mlh-proyectos.jpeg)](http://machinelearninghispano.com/projects.html)
+[![Proyectos](docs/assets/img/mlh-proyectos.jpeg)](http://machinelearninghispano.com/projects.html)
 
 # Documentación
-[![Documentación](/docs/assets/img/mlh-doc.jpeg)](http://machinelearninghispano.com)
+[![Documentación](docs/assets/img/mlh-doc.jpeg)](http://machinelearninghispano.com)

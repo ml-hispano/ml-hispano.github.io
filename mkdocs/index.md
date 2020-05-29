@@ -4,7 +4,7 @@
 
 Únete la comunidad **Machine Learning Hispano** la comunidad mas grande en habla hispana. Si también quieres formar parte de esta comunidad, entra a nuestro Slack a través de este link [Slack ML-Hispano](https://bit.ly/35Kp83O).
 
-<p align="center"><a href="https://bit.ly/35Kp83O">
+<p align="center"><a href="https://bit.ly/3cfWqL8">
   <img src="https://i.ibb.co/n0shJnF/Anotaci-n-2020-01-13-020158.png">
 </a></p>
 

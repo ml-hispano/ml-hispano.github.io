@@ -51,7 +51,7 @@ reference on how to write equations in TeX syntax.
 
 Besides activating the extension in the `mkdocs.yml`, the MathJax JavaScript
 runtime needs to be included. This must be done with
-[additional JavaScript][5]:
+additional JavaScript:
 
 ``` yaml
 extra_javascript:
@@ -96,7 +96,6 @@ extra_javascript:
   [2]: https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
   [3]: https://www.mathjax.org/
   [4]: http://meta.math.stackexchange.com/questions/5020/
-  [5]: ../customization.md#additional-javascript
 
 #### Blocks
 

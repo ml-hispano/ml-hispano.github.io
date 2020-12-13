@@ -118,7 +118,7 @@ document `head` for the current page to the provided value.
 
 #### Disqus
 
-As described in the [getting started guide][3], the Disqus comments section can
+As described in the getting started guide, the Disqus comments section can
 be enabled on a per-document level:
 
 ``` markdown
@@ -130,5 +130,3 @@ Disqus can be disabled for a specific page by setting it to an empty value:
 ``` markdown
 disqus:
 ```
-
-  [3]: ../getting-started.md#disqus
